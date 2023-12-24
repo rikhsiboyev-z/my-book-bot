@@ -1,0 +1,8 @@
+services:
+
+  user-db:
+    image: postgres:16.1
+    ports:
+      - "1010:5432"
+    environment:
+      - "POSTGRES_PASSWORD=1010"
